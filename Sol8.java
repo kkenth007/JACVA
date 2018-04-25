@@ -30,6 +30,6 @@ public class Sol8 {
         return ((base/4)*Math.sqrt(4*(corner*corner)-(base*base)));
     }
     public static double RecCon90(double corner){
-        return (corner*corner);
+        return ((corner*corner)/2);
     }     
 }
